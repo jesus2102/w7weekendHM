@@ -24,4 +24,9 @@ public class GuitarTest {
     public void hasType(){
         assertEquals("Accoustic", guitar.getType());
     }
+
+    @Test
+    public void hasPriceBought(){
+        assertEquals(160.00, guitar.getPriceBought(), 0.00);
+    }
 }

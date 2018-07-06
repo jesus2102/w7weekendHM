@@ -16,4 +16,8 @@ public abstract class Item {
     public String getType() {
         return typeOfItem;
     }
+
+    public double getPriceBought() {
+        return priceBought;
+    }
 }
