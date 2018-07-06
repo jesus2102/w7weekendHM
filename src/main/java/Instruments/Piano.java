@@ -11,7 +11,7 @@ public class Piano extends Instrument {
         this.pedal = pedal;
     }
 
-    public int getKeys() {
+    public int getNumberOfKeys() {
         return numberOfKeys;
     }
 

@@ -8,4 +8,8 @@ public class Drum extends Instrument {
         super(model, typeOfItem, priceBought, priceSold);
         this.numberOfDrums = numberOfDrums;
     }
+
+    public int getNumberOfDrums() {
+        return numberOfDrums;
+    }
 }

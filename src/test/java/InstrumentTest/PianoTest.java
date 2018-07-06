@@ -17,7 +17,7 @@ public class PianoTest {
 
     @Test
     public void hasKeys(){
-        assertEquals(64, piano.getKeys());
+        assertEquals(64, piano.getNumberOfKeys());
     }
 
     @Test
