@@ -24,4 +24,5 @@ public class PianoTest {
     public void hasPedal(){
         assertEquals(true, piano.getPedal());
     }
+
 }
