@@ -25,4 +25,10 @@ public class ShopTest {
     public void canCountItems(){
         assertEquals(0, shop.countItems());
     }
+
+    @Test
+    public void canAddItem(){
+        shop.add(guitar);
+        assertEquals(1, shop.countItems());
+    }
 }

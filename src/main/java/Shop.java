@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import Instruments.Guitar;
 import Shop.Item;
 
 public class Shop {
@@ -11,5 +12,9 @@ public class Shop {
 
     public int countItems() {
         return this.items.size();
+    }
+
+    public void add(Item item) {
+        items.add(item);
     }
 }
