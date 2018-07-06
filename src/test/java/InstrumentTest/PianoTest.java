@@ -2,6 +2,9 @@ package InstrumentTest;
 
 import Instruments.Piano;
 import org.junit.Before;
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 public class PianoTest {
 
@@ -9,6 +12,11 @@ public class PianoTest {
 
     @Before
     public void before(){
-        piano = new Piano(64, true);
+        piano = new Piano(64, true, "Classic", 450.00, 680, "Yamaha 920L");
+    }
+
+    @Test
+    public void hasKeys(){
+        assertEquals(64, piano.getKeys());
     }
 }
