@@ -20,4 +20,8 @@ public abstract class Item {
     public double getPriceBought() {
         return priceBought;
     }
+
+    public double getPriceSold() {
+        return priceSold;
+    }
 }
