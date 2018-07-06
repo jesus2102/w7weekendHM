@@ -25,4 +25,8 @@ public class PianoTest {
         assertEquals(true, piano.getPedal());
     }
 
+    @Test
+    public void canPlayMusic(){
+        assertEquals("spoiiing", piano.playing("spoiiing"));
+    }
 }

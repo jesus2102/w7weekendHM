@@ -18,6 +18,6 @@ public abstract class Instrument extends Item implements IPlay {
     }
 
     public String playing(String sound){
-        return sound
+        return sound;
     }
 }
