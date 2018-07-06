@@ -2,13 +2,13 @@ package Shop;
 
 public abstract class Item {
 
-    private String type;
-    private double priceBuyed;
+    private String typeOfItem;
+    private double priceBought;
     private double priceSold;
 
-    public Item(String type, double priceBuyed, double priceSold){
-        this.type = type;
-        this.priceBuyed = priceBuyed;
+    public Item(String typeOfItem, double priceBought, double priceSold){
+        this.typeOfItem = typeOfItem;
+        this.priceBought = priceBought;
         this.priceSold = priceSold;
 
     }

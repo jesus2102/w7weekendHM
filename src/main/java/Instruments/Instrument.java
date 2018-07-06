@@ -7,8 +7,8 @@ public abstract class Instrument extends Item {
 
     private String model;
 
-    public Instrument(String model){
-        super(type, priceBuyed, priceSold);
+    public Instrument(String model, String typeOfItem, double priceBought, double priceSold){
+        super(typeOfItem, priceBought, priceSold);
         this.model = model;
     }
 }
