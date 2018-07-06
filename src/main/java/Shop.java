@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import Instruments.Guitar;
+import Instruments.Piano;
 import Shop.Item;
 
 public class Shop {
@@ -16,5 +17,9 @@ public class Shop {
 
     public void add(Item item) {
         items.add(item);
+    }
+
+    public void remove(Item item) {
+        items.remove(item);
     }
 }

@@ -31,4 +31,13 @@ public class ShopTest {
         shop.add(guitar);
         assertEquals(1, shop.countItems());
     }
+
+    @Test
+    public void canDeleteItem(){
+        shop.add(guitar);
+        shop.add(guitarString);
+        shop.add(piano);
+        shop.remove(piano);
+        assertEquals(2, shop.countItems());
+    }
 }
