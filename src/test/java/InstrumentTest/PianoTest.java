@@ -12,7 +12,7 @@ public class PianoTest {
 
     @Before
     public void before(){
-        piano = new Piano(64, true, "Classic", 450.00, 680, "Yamaha 920L");
+        piano = new Piano(64, true, "Classic", 450.00, 680.00, "Yamaha 920L");
     }
 
     @Test
@@ -28,5 +28,10 @@ public class PianoTest {
     @Test
     public void canPlayMusic(){
         assertEquals("spoiiing", piano.playing("spoiiing"));
+    }
+
+    @Test
+    public void canSellItem(){
+        assertEquals(230.00, piano.calculateMarkUp(piano), 0.00);
     }
 }

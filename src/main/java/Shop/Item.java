@@ -1,6 +1,8 @@
 package Shop;
 
-public abstract class Item {
+import Behaviours.ISell;
+
+public abstract class Item implements ISell{
 
     private String typeOfItem;
     private double priceBought;
@@ -23,5 +25,10 @@ public abstract class Item {
 
     public double getPriceSold() {
         return priceSold;
+    }
+
+    public double calculateMarkUp(Item item){
+        double markUp = this.priceSold - this.priceBought;
+        return markUp;
     }
 }
