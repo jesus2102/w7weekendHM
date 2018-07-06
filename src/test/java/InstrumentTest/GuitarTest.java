@@ -19,4 +19,9 @@ public class GuitarTest {
     public void hasStrings(){
         assertEquals(6, guitar.getNumberOfStrings());
     }
+
+    @Test
+    public void hasType(){
+        assertEquals("Accoustic", guitar.getType());
+    }
 }
