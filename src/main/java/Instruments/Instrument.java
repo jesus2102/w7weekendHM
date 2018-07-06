@@ -11,4 +11,8 @@ public abstract class Instrument extends Item {
         super(typeOfItem, priceBought, priceSold);
         this.model = model;
     }
+
+    public String getModel() {
+        return model;
+    }
 }
