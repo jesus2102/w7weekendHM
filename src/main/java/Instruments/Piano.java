@@ -5,7 +5,7 @@ public class Piano extends Instrument {
     private int numberOfKeys;
     private boolean pedal;
 
-    public Piano(int numberOfKeys, boolean pedal, String typeOfItem, double priceBought, double priceSold, String model){
+    public Piano(int numberOfKeys, boolean pedal, String typeOfItem, double priceBought, double priceSold, String model) {
         super(model, typeOfItem, priceBought, priceSold);
         this.numberOfKeys = numberOfKeys;
         this.pedal = pedal;
