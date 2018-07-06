@@ -1,3 +1,5 @@
+package Shop;
+
 public abstract class Item {
 
     private String type;
